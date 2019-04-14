@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+#myName {
+  font-size: 32 px; }
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.topthreeparagraphs{
+  color:green; }
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://i.redd.it/dan7ova39q101.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+#firstfav{
+  font-size: 30px;
+  font-weight: 500;
+  color:purple;
+  text-align:center;
+}
+#secondfav{
+  font-size:32px;
+  font-weight:450;
+  color:orange;
+  text-align:center;
+}
+#thirdfav{
+  font-size:35px;
+  font-weight:400;
+  color:brown;
+  text-align:center;
+}
+#fourthfav{
+  font-size:37px;
+  font-weight:370;
+  color:blue;
+  text-align:center;
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+#FavoriteQuotes{
+  font-weight:bold;
+  text-align:center;
+}
+#firstquote{
+  color:blue;
+  font-size:20px;
+  font-family:"Times New Roman", Times, serif
+}
+#secondquote{
+  color:red;
+  font-size:19px;
+  font-family:fantasy;
+}
+#thirdquote{
+  color:green;
+  font-size:18px;
+  font-family:cursive;
+}
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+}
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
